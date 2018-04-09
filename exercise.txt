@@ -1,0 +1,31 @@
+1.  Write a program to strip out comments.
+    Coments are in this format /* */ or //
+
+    a. Bonus: Save and print out the comments along with line numbers. (not really necessary for later parts )
+
+2.  Write a program to process `define, `ifdef, `ifndef, `else, and `endif.
+    In this format:
+    a.  `define <MACRO>
+    
+    b.  `if(n)def <MACRO>
+        `endif
+
+    c.  `if(n)def <MACRO>
+        `else
+        `endif
+
+     step 1 : Create a program to list all the <MACRO> inside a given program and output to a file
+     step 2 : read in a a list of macros that are defined , this format   
+
+       ..
+       <MACRO1>
+       <MACRO2>
+       <MACROn>
+     step 3 :  Given a list of defined macros, strip out macros so that the program will work properly.
+       print out file and try to compile and see output.
+
+   **NOTE there are macros that exist in the format of `ifdef <MACRO> <some_value>. Don't have to solve for these right now
+
+
+3.  Write a program that processes defines properly and ignores them when they are inside comments.
+    
